@@ -89,7 +89,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 #main_window {
   background-color: var(--fg);
-  width: 910px;
+  width: 80vw;
   padding-right: 40px;
   margin: 0;
   position: absolute;
@@ -133,7 +133,7 @@ a {
 }
 
 .image {
-  max-width: 250px;
+  height: 420px;
   float: left;
 }
 
@@ -150,6 +150,10 @@ a {
 
 .bottom a:hover {
   text-decoration: underline;
+}
+
+nav {
+  padding-bottom: 40px;
 }
 
 /*
