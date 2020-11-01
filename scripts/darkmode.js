@@ -9,11 +9,13 @@ const lightModeToggle = document.querySelector('#light-mode-toggle');
 
 const enableLightMode = () => {
 	document.body.classList.add('lightmode');
+	document.getElementById("engineLogo").classList.add('invert');
 	localStorage.setItem('lightMode', 'enabled');
 }
 
 const disableLightMode = () => {
 	document.body.classList.remove('lightmode');
+	document.getElementById("engineLogo").classList.remove('invert');
 	localStorage.setItem('lightMode', null);
 }
 
